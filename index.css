@@ -1,0 +1,66 @@
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:300px;
+    width:100%;
+    
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:300px;
+    width:100%;
+    text-align: center;
+}
+#navbar{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(246, 34, 10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#whether{
+    border: 1px solid white;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#whether1{
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    
+}
+.find{
+    color: darkgreen;
+    font-size: large;
+}
+#submit,#location{
+    width: 300px;
+    height: 30px;
+}
+#city{
+    height: 30px;
+    width: 290px;
+}
+#container{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+}
+#box{
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}

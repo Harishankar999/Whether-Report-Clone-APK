@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="navbar">
+        <div>
+            <h1> Whether Report</h1>
+        </div>
+        <div>
+            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="">
+        </div>
+        
+    </div>
+<div id="box">
+    <div id="whether">
+        <div id="whether1">
+            <label for="" class="find">Search Location:</label>
+            <br>
+            <input type="text" id="city" placeholder="Input City Name">
+            <br><br>
+            <button id="submit" onclick="getData()">Search</button>
+            <br><br>
+            <label for="" class="find">Find Your Location Temperture:</label>
+            <br>
+            <button id="location" onclick="getWhether()">Get Whether On Location</button>
+        </div>
+    </div>
+    
+    
+    <div id="container"></div>
+</div>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="600" 
+                height="500" 
+                id="gmap_canvas" 
+                frameborder="0" 
+                scrolling="no" 
+                marginheight="0" 
+                marginwidth="0">
+            </iframe>
+        
+            </div>
+        </div>
+
+</body>
+</html>
+<script src="index.js"></script>
